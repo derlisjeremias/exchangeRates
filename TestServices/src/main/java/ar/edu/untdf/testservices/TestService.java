@@ -40,7 +40,7 @@ public class TestService {
             //de la respuesta en un string.
             //para la llamada utiliza commons-http de apache y para la conversión
             //utiliza commmons-io (la clase IOUtils)
-            String request = "http://openexchangerates.org/api/latest.json?app_id=25fb0f55591b47abb1b86d90926679a4";
+            String request = "http://openexchangerates.org/api/latest.json?app_id=4272aa1329564d879f5fc1e54d666f1c";
             HttpClient client = new DefaultHttpClient();
             HttpGet method = new HttpGet(request);
             HttpResponse response = client.execute(method);
